@@ -46,4 +46,11 @@ if os.path.exists('thansoe.txt'):
     os.remove('thansoe.txt')
 else:
     print('the file you wish to delete does not exist')
+    
+# delete a file
+# avoid an error if it doesn't exist
+if os.path.exists('myname.txt'):
+    os.remove('myname.txt')
+else:
+    print('the file you wish to delete does not exist')
 
